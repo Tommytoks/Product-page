@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+.logo{
+    font-weight: 1000;
+    font-family: montserrat;
+    justify-content: center;
+    font-size: 30px;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    
+}
+nav ul{
+    display: flex;
+    align-content: left;
+    /* background-color: green; */
+    justify-content: space-around;
+    list-style-type: none;
+    max-width: 500px;
+    width: 100%;
+    padding-left: 50px;
+    
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: montserrat;
+    color: black;
+    text-decoration: none;
+   
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.portait{
+    width: 70px;
+    padding-right: 10px;
+}
+/* I dont get this yet */
+.logoicon{
+    width: 70px;
+    padding-right: 0px;
+}
+container{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 0px 0px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "shoe article"
+    "shoe article"
+    "below article";
+    /* padding: 15px 10px; */
+}
+main{
+    /* background-color: red; */
+    grid-area: shoe;
+    width: 500px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+ }
+ .navbar2{
+     max-width: 200px;
+     width: 50%;
+ }
+ .mainshoe{
+     align-content: center;
+     padding-left: 10px;
+     padding-top: 20px;
+     
+ }
+ .mainshoe img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+ }
+below{
+    /* background-color: blue; */
+    grid-area: below;
+    width: 500px;
+}
+aside{
+    /* background-color: green; */
+    grid-area: article;
+    width: 500px;
+    padding-left:20px;
+}
+main, below{
+    padding-left:100px;
+     /* border:10px solid red; */
+    /* row-gap: 50px; */
+}
+.sub_shoe{
+    padding-left: 0%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: end;
+     /* background-color: red; */
+}
+.sub_shoe .firstshoe{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.sub_shoe .firstshoe:hover{
+    opacity: 0.5;
+    border: 3px orangered solid;
+    cursor: pointer;
+}
+.sub_shoe .secondshoe{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.sub_shoe .secondshoe:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 3px orangered solid;
+}
+.sub_shoe .thirdshoe{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.sub_shoe .thirdshoe:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 3px orangered solid;
+}
+.sub_shoe .fourthshoe{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.sub_shoe .fourthshoe:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    border: 3px orangered solid;
+}
+.company{
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    padding-top: 80px;
+    font-family: montserrat;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(235, 47, 203);
+}
+.fall{
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding-top: 50px;
+}
+aside p{
+    width: 500px;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: montserrat;
+    line-height: 30px;
+
+}
+.price{
+    font-size: 25px;
+    color: black;
+    /* background-color: rgb(251, 255, 0); */
+    /* width: 60px; */
+    font-family: montserrat;
+    font-weight: 700;
+    float: left;
+}
+.discount button{
+    background-color: rgb(14, 167, 141);
+    padding: 3px 5px;
+    color: whitesmoke;
+    border-radius: 5px;
+    border:none;
+}
+.discount button:hover{
+    /* background-color: rgb(230, 138, 102)174, 174, 185); */
+}
+
+.discount{
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 20px;
+    float: left;
+    width: 50px;
+    height: 30px;
+    /* background-color: brown; */
+    color: white;
+    /* align-items: center;
+    justify-items: center; */
+}
+#idtag{
+    text-decoration: line-through;
+    font-size: 13px;
+    font-family: montserrat;
+    color: grey;
+    line-height: 1px;
+   
+}
+.idontknow{
+    width:80px ;
+    height: 30px;
+    background-color: rgb(214, 232, 233);
+    opacity: 0.8;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: black;
+    font-weight: 500;
+    float: left;
+}
+.lastbutt button{
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(14, 167, 141);
+    box-shadow: 2px 4px 8px 0 coral;
+}
+.lastbutt{
+    float: left;
+    padding:0 50px;
+    
+    }
+button:hover{
+    background-color: greenyellow;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    /* padding-top: 5px; */
+    border-radius: 10px;
+    border: orange;
+    /* float: left; */
+    /* width:100px ; */
+    /* height: 100px; */
+   
+}
+
+
+@media screen and (max-width:300px) {
+   nav ul li a{
+       float: none;
+       display:block
+    } 
+    body{
+        width: 300px;
+    }
+    .navbar2{
+        width: 300px;
+    }
+    container{
+        /* background-color: red; */
+        height: 100vh;
+        width: 290px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "shoe"
+        "below"
+        "article";
+        /* padding: 15px 10px; */
+    }
+
+}
